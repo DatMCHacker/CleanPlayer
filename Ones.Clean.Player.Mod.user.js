@@ -32,7 +32,7 @@ Function.prototype.bind = function() {
 };
 
 var OCPlayer = {
-	host: 'http://dxdragon.cwsurf.de/cleanplayer/player/',
+	host: '127.0.0.1:8000/player/',
 	list: [],
 	done: [],
 	rule: [{ // YOUKU_COM
